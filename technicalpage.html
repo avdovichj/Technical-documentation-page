@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FCC: Technical Documentation Page</title>
+		<meta charset="utf-8">
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+		<link href="technicalstyle.css" rel="stylesheet" type="text/css">
+	</head>
+<body>
+	<nav id="navbar">
+		<header>Java Documentation</header>
+		
+		<a class="nav-link" href="#Introduction">Introduction</a>
+		<a class="nav-link" href="#Syntax">Syntax</a>
+		<a class="nav-link" href="#Special_classes">Special classes</a>
+		<a class="nav-link" href="#Class_libraries">Class libraries</a>
+		<a class="nav-link" href="#Criticism">Criticism</a>
+		
+	</nav>
+
+	<main id="main-doc">
+		<section class="main-section" id="Introduction">
+			<header>Introduction</header>
+
+			<article>
+				<p>Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.</p>
+
+				<p>Java was originally developed by James Gosling at Sun Microsystems (which has since been acquired by Oracle) and released in 1995 as a core component of Sun Microsystems' Java platform.</p>
+
+				<p>There were five primary goals in the creation of the Java language:</p>
+
+				<ol>
+					<li>It must be simple, object-oriented, and familiar.</li>
+					<li>It must be robust and secure.</li>
+					<li>It must be architecture-neutral and portable.</li>
+					<li>It must execute with high performance.</li>
+					<li>It must be interpreted, threaded, and dynamic.</li>
+				</ol>
+			</article>
+		</section>
+
+		<br><br>
+
+		<section class="main-section" id="Syntax">
+			<header>Syntax</header>
+
+			<article>
+				<p>The syntax of Java is largely influenced by C++ and C. Unlike C++, which combines the syntax for structured, generic, and object-oriented programming, Java was built almost exclusively as an object-oriented language. All code is written inside classes, and every data item is an object, with the exception of the primitive data types, (i.e. integers, floating-point numbers, boolean values, and characters), which are not objects for performance reasons.</p>
+
+				<p>Unlike C++, Java does not support operator overloading or multiple inheritance for classes, though multiple inheritance is supported for interfaces.</p>
+
+				<p>Important keywords in Java</p>
+
+				<ul>
+					<li><strong>public</strong></li>
+					<li><strong>private</strong></li>
+					<li><strong>static</strong></li>
+					<li><strong>void</strong></li>
+					<li><strong>main</strong></li>
+				</ul>
+
+				<br><br>
+
+				<p>Hello world example:</p>
+
+				<code>
+					public class HelloWorldApp {<br>
+    					public static void main(String[] args) {<br>
+        					System.out.println("Hello World!"); // Prints the string to the console.<br>
+   						}<br>
+					}
+				</code>
+
+				<br><br>
+
+				<p>Declaring variables:</p>
+
+				<code>
+					type variable = value;
+				</code>
+
+				<br>
+
+				<code>
+					int myNum;
+					myNum = 15;
+					System.out.println(myNum);
+				</code>
+
+				<br><br>
+
+				<p>Java operators:</p>
+
+				<code>
+					int x = 100 + 50;
+				</code>
+
+				<br><br>
+
+				<p>Java arrays:</p>
+
+				<code>
+					String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+				</code>
+
+				<br>
+
+				<code>
+					int[] myNum = {10, 20, 30, 40};
+				</code>
+			</article>
+		</section>
+
+		<br><br>
+
+		<section class="main-section" id="Special_classes">
+			<header>Special classes</header>
+
+			<article>
+				<p>Special classes in Java programming language are:</p>
+
+				<ul>
+					<li>Applet</li>
+					<li>Servlet</li>
+					<li>JavaServer Pages</li>
+					<li>Swing application</li>
+					<li>JavaFX application</li>
+					<li>Generics</li>
+				</ul>
+			</article>
+		</section>
+
+		<br><br>
+
+		<section class="main-section" id="Class_libraries">
+			<header>Class libraries</header>
+
+			<article>
+				<p>The Java Class Library is the standard library, developed to support application development in Java. It is controlled by Oracle in cooperation with others through the Java Community Process program. Companies or individuals participating in this process can influence the design and development of the APIs.</p>
+
+				<p>The core libraries include:</p>
+
+				<ul>
+					<li>IO/NIO</li>
+					<li>Networking</li>
+					<li>Reflection</li>
+					<li>Concurrency</li>
+					<li>Generics</li>
+					<li>XML Processing libraries</li>
+					<li>etc</li>
+				</ul>
+			</article>
+		</section>
+
+		<br><br>
+
+		<section class="main-section" id="Criticism">
+			<header>Criticism</header>
+
+			<article>
+				<p>Criticisms directed at Java include the implementation of generics, speed, the handling of unsigned numbers, the implementation of floating-point arithmetic, and a history of security vulnerabilities in the primary Java VM implementation HotSpot.</p>
+			</article>
+		</section>
+	</main>
+</body>
+</html>
